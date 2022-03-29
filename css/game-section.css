@@ -1,6 +1,7 @@
 #game-section {
+	position: relative;
 	padding-top: 3rem;
-	background: linear-gradient(180deg, #efffe8 0%, #fcd5d8 100%);
+	background-color: var(--background-primary);
 	display: flex;
 	flex-direction: column;
 	gap: 3rem;
@@ -16,12 +17,17 @@
 
 #game-section > h1 {
 	text-align: center;
-	line-height: 60px;
+	color: var(--title-color-secondary);
 }
-
+#playstores {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
 .playstores-item {
-	background-color: #ffffff;
-	width: 80%;
+	min-width: 400px;
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;
@@ -34,7 +40,10 @@
 	background: url('./../assets/icons/app-store.svg');
 	background-repeat: no-repeat;
 }
-
+.game-image__frame {
+	background-color: #ffffff;
+	padding: 1rem 3rem;
+}
 .game-image {
 	height: 150px;
 	max-width: 100%;

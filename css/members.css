@@ -1,32 +1,17 @@
-#members {
-	background: linear-gradient(
-		180deg,
-		rgba(240, 255, 233, 0) 0%,
-		#f0ffe9 11.58%
-	);
+#pig-army {
+	background-color: var(--background-primary);
 	min-height: 50vh;
 	position: relative;
-}
-
-#members-summary {
-	width: 75%;
-}
-
-#members-main {
-	padding-top: 5rem;
 	display: flex;
 	flex-direction: column;
-	gap: 1rem;
 	align-items: center;
-	justify-content: center;
-}
-#members-main > img {
-	width: 50%;
-	height: 50%;
+	padding-top: var(--padding-default);
+	gap: var(--padding-default);
 }
 
-#members-main > .title {
-	text-align: center;
-	line-height: 60px;
-	margin-bottom: 3rem;
+#pig-army > h1 {
+	color: var(--background-secondary);
+}
+#pig-army > span {
+	color: var(--text-color-primary);
 }

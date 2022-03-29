@@ -1,27 +1,26 @@
 #faq {
-	padding-top: 3rem;
+	padding: 3rem 0;
 	display: flex;
 	flex-direction: column;
-	background-color: #fcd5d8;
+	background-color: var(--background-secondary);
 	align-items: center;
 	gap: 3rem;
+	position: relative;
 }
 
-#faq > img {
-	max-width: 50%;
-	max-height: 250px;
-	border: 10px solid #ffffff;
-	border-radius: 360px;
+#faq > h1 {
+	color: var(--title-color-primary);
 }
+
 .faq-item {
 	user-select: none;
-	border: 10px solid rgb(255, 255, 255);
+	border: 10px solid var(--text-color-primary);
 	border-radius: 20px;
 	width: 80%;
 }
 
 .faq-item__header {
-	color: #ffffff;
+	color: var(--text-color-primary);
 	font-size: 24px;
 	padding: 1rem;
 	display: flex;

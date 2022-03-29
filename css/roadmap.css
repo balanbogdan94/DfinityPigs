@@ -1,9 +1,6 @@
 #roadmap {
-	background: #efffe8;
-	display: flex;
-	flex-direction: column;
-	gap: 3rem;
-	align-items: center;
+	position: relative;
+	background-color: var(--background-primary);
 }
 
 #roadmap > h1 {
@@ -12,10 +9,9 @@
 }
 
 #roadmap > img {
-	max-width: 50%;
-	max-height: 250px;
-	border: 20px solid #fcd5d8;
-	border-radius: 360px;
+	max-width: 100%;
+	height: 100%;
+	object-fit: contain;
 }
 
 .roadmap-item {

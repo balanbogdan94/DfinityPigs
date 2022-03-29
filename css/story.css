@@ -1,26 +1,19 @@
 #story {
-	background-color: #ffffff;
-	background-image: url('./../assets/characthers/story-background.jpeg');
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	position: relative;
+	background-color: var(--background-secondary);
 	padding: 3rem 1rem;
 }
 
-#story > h2 {
-	color: #a2a2a2;
-	font-size: 42px;
+#story > h1 {
+	color: var(--title-color-primary);
 	text-align: center;
 }
 
-#story > .story-textbox {
-	background: rgba(0, 0, 0, 0.02);
-	border: 10px solid rgba(219, 219, 219, 0.5);
-	border-radius: 45px;
+#story > .story-text {
 	padding: 1rem;
 	margin-top: 3rem;
 	font-size: 18px;
-	line-height: 28px;
-	color: rgba(105, 105, 105, 0.61);
+	line-height: 34px;
+	color: var(--text-color-primary);
 	text-align: justify;
 }

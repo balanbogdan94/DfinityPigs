@@ -1,0 +1,2 @@
+# DfinityPigs
+Static NFT page

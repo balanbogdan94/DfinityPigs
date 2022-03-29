@@ -1,0 +1,50 @@
+#roadmap {
+	background: #efffe8;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	align-items: center;
+}
+
+#roadmap > h1 {
+	text-align: center;
+	line-height: 60px;
+}
+
+#roadmap > img {
+	max-width: 50%;
+	max-height: 250px;
+	border: 20px solid #fcd5d8;
+	border-radius: 360px;
+}
+
+.roadmap-item {
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 40px;
+	padding: 1rem;
+	text-align: center;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+}
+.roadmap-item-primary {
+	background: #fcd5d8;
+	color: white;
+}
+
+.roadmap-item-primary > h2 {
+	color: #fcd5d8;
+}
+
+.roadmap-item-secundary {
+	background: #ffffff;
+	color: #fcd5d8;
+}
+
+.roadmap-item-secundary > h2 {
+	color: white;
+}

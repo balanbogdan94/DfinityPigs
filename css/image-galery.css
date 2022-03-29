@@ -1,0 +1,27 @@
+#image-galery {
+	margin-top: -10px;
+	min-height: 100vh;
+	padding: 3rem 0;
+	background: linear-gradient(180deg, #fcd5d8 37.3%, #efffe8 100%);
+}
+
+#image-galery > ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	align-items: center;
+	justify-content: center;
+}
+
+#image-galery > ul > li {
+	background-color: #ffffff;
+	width: fit-content;
+	padding-bottom: 3rem;
+}
+
+#image-galery > ul > li > img {
+	width: 250px;
+	height: 250px;
+}

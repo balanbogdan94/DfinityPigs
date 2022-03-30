@@ -14,15 +14,21 @@
 #team-members > ul {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 #team-members > ul > li {
-	background-color: var(--background-secondary);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 1rem;
 	gap: 1rem;
+	border-radius: 10px;
+}
+
+#team-members > ul > li > img {
+	max-height: 200px;
 }
 
 #team-members > ul > li > i {

@@ -10,7 +10,7 @@
 
 #game-section > img {
 	max-width: 50%;
-	max-height: 250px;
+	max-height: 300px;
 	border: 20px solid rgb(255, 255, 255);
 	border-radius: 360px;
 }
@@ -40,12 +40,8 @@
 	background: url('./../assets/icons/app-store.svg');
 	background-repeat: no-repeat;
 }
-.game-image__frame {
-	background-color: #ffffff;
-	padding: 1rem 3rem;
-}
 .game-image {
-	height: 150px;
+	height: 200px;
 	max-width: 100%;
 }
 

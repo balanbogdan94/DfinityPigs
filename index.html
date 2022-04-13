@@ -55,7 +55,7 @@
                 <li class="social-links__link"><a class="menuItem" href="https://twitter.com/dfinity_pigs"><img
                             src="./assets/icons/twitter.svg" />Twitter</a></li>
             </ul>
-            <a id="mint-button"><button>mint</button></a>
+            <a id="mint-button" href="./pages/mint.html"><button>mint</button></a>
         </div>
     </nav>
     <nav id="header-big">
@@ -71,12 +71,16 @@
             <li class="social-links__link"><a class="menuItem" href="https://twitter.com/dfinity_pigs"><img
                         src="./assets/icons/twitter.svg" />Twitter</a></li>
         </ul>
-        <a id="mint-button"><button>mint</button></a>
+        <a id="mint-button" href="./pages/mint.html"><button>mint</button></a>
     </nav>
     <section id="blanck-section" style="min-height: 100vh;">
     </section>
     <section id="hero">
-        <img id="hero__image" src="./assets/sections/hero-section.jpg" alt="gero-image" />
+        <picture>
+            <source media="(max-width: 1024px)" srcset="./assets/sections/hero-section-m.jpg">
+            <source media="(min-width: 1023px)" srcset="./assets/sections/hero-section.jpg">
+            <img id="hero__image" src="./assets/sections/hero-section-m.jpg" alt="gero-image">
+        </picture>
     </section>
     <section id="story">
         <h1>OUR STORY</h1>
@@ -111,11 +115,24 @@
             <img class="bigger" src="./assets/gallery/Pig Army-02.jpg" />
             <img class="rotate-right" src="./assets/gallery/Pig Army-04.jpg" />
             <img class="rotate-left" src="./assets/gallery/Pig Army-05.jpg" />
+            <img class="rotate-right" src="./assets/gallery/Pig Army-06.jpg" />
+            <img class="rotate-left" src="./assets/gallery/Pig Army-07.jpg" />
+            <img class="rotate-right" src="./assets/gallery/Pig Army-08.jpg" />
+            <img class="bigger" src="./assets/gallery/Pig Army-09.jpg" />
+            <img class="rotate-right" src="./assets/gallery/Pig Army-10.jpg" />
+            <img class="rotate-left" src="./assets/gallery/Pig Army-11.jpg" />
+            <img class="rotate-right" src="./assets/gallery/Pig Army-12.jpg" />
+
+
         </div>
         </div>
     </section>
     <section id="roadmap">
-        <img src="./assets/sections/roadmap.jpg" />
+        <picture>
+            <source media="(max-width: 1024px)" srcset="./assets/sections/roadmap-m.jpg">
+            <source media="(min-width: 1023px)" srcset="./assets/sections/roadmap.jpg">
+            <img src="./assets/sections/roadmap-m.jpg" alt="gero-image">
+        </picture>
     </section>
     <section id="game-section">
 
@@ -123,7 +140,7 @@
         <ul id="playstores">
             <li class="playstores-item">
                 <div class="game-image__frame">
-                    <img class="game-image" src="./assets/characthers/game-section/1.jpeg" />
+                    <img class="game-image" src="./assets/characthers/game-section/1.png" />
                 </div>
                 <a class="app-btn app-btn-blu" href="http:apple.com">
                     <img src="./assets/icons/apple.svg" />
@@ -135,7 +152,7 @@
             </li>
             <li class="playstores-item">
                 <div class="game-image__frame">
-                    <img class="game-image" src="./assets/characthers/game-section/2.jpeg" />
+                    <img class="game-image" src="./assets/characthers/game-section/1.png" />
                 </div>
                 <a class="app-btn app-btn-blu" href="http:google.com">
                     <img src="./assets/icons/google-play.svg" />
@@ -154,18 +171,123 @@
                 <b>What is DfinityPigs </b>
                 <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
             </summary>
-            <p class="section-content__text faq-item__content">To be announced</p>
+            <p class="section-content__text faq-item__content">If you heard about The Three Little Pigs story is easy to
+                understand DfinityPigs is an NFT collection featuring 10,000 hand drawn pigs based on a new version of
+                the story.</p>
         </details>
         <details class="faq-item">
             <summary class="faq-item__header">
-                <b>Do DfinityPigs have rarities? </b>
+                <b>What is the launch date of DfinityPigs </b>
                 <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
             </summary>
             <div class="faq-item__content">
                 <p class="section-content__text">
-                    Yes, we will have some rarities in our NFT collection. The rarest
-                    NFT will be of course the three little pigs, we will also have 10
-                    wolfs. Also 30 pigs from the army.
+                    The launch date will be announced soon.
+                </p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-item__header">
+                <b>When are you launching the DfinityPigs game </b>
+                <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
+            </summary>
+            <div class="faq-item__content">
+                <p class="section-content__text">
+                    It will be launched on AppStore and GooglePlay in March 2022.
+                </p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-item__header">
+                <b>What kind of benefits can I have if I play the game </b>
+                <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
+            </summary>
+            <div class="faq-item__content">
+                <p class="section-content__text">
+                    You can win token in the game. You can buy baby NFTs with the token won in the game.
+                </p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-item__header">
+                <b>Would you have stacking </b>
+                <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
+            </summary>
+            <div class="faq-item__content">
+                <p class="section-content__text">
+                    Yes, you'll be able to stake your NFTs on our website by breeding two or more DfinityPigs NFT you'll
+                    receive baby pig NFT in your wallet.
+                </p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-item__header">
+                <b>Do DfinityPigs have rarities </b>
+                <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
+            </summary>
+            <div class="faq-item__content">
+                <p class="section-content__text">
+                    Yes, we will have some rarities in our NFT collection.<br>
+                    The rarest NFT will be of course the three little pigs, we will also have 10 wolfs. Also 30 pigs
+                    from the army.
+                </p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-item__header">
+                <b>Where will DfinityPigs be listed </b>
+                <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
+            </summary>
+            <div class="faq-item__content">
+                <p class="section-content__text">
+                    You can find us on <a href="https://entrepot.app/marketplace" target="blank">Entrepot</a> where you
+                    can collect your pig army.
+                </p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-item__header">
+                <b>Where will DfinityPigs be listed </b>
+                <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
+            </summary>
+            <div class="faq-item__content">
+                <p class="section-content__text">
+                    You can find us on <a href="https://entrepot.app/marketplace" target="blank">Entrepot</a> where you
+                    can collect your pig army.
+                </p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-item__header">
+                <b>What wallet do I need to mint DfinityPigs</b>
+                <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
+            </summary>
+            <div class="faq-item__content">
+                <p class="section-content__text">
+                    To mint DfinityPigs you'll need a Stoic Wallet.
+                </p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-item__header">
+                <b>What will be the whitelisting process</b>
+                <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
+            </summary>
+            <div class="faq-item__content">
+                <p class="section-content__text">
+                    To become @Whitelisted Pig you'll need to invite 10 people. A discount will be awarded during our
+                    launch to our Whitelisted Pigs.
+                </p>
+            </div>
+        </details>
+        <details class="faq-item">
+            <summary class="faq-item__header">
+                <b>How to get OG role</b>
+                <span class="icon"><img src="./assets/icons/arrow.svg" /></span>
+            </summary>
+            <div class="faq-item__content">
+                <p class="section-content__text">
+                    The @OG Pigs roles will be awarded to the first 400 members that will join our Discord server.
                 </p>
             </div>
         </details>
@@ -175,28 +297,28 @@
         <ul>
             <li>
                 <img src="./assets/team-members/Team member-01.png" />
-                <b>VEF the pig</b>
-                <i>Project Manager</i>
+                <b>The Long Hair Guy</b>
+                <i>founder</i>
             </li>
             <li>
                 <img src="./assets/team-members/Team member-02.png" />
-                <b>Cutie the pig</b>
-                <i>Ilustrator & Graphic designer</i>
+                <b>Vef the Pig</b>
+                <i>project manager</i>
             </li>
             <li>
                 <img src="./assets/team-members/Team member-03.png" />
-                <b>Tonso</b>
-                <i>Ilustrator & game developer</i>
+                <b>Cutie the Pig</b>
+                <i>Marketing</i>
             </li>
             <li>
                 <img src="./assets/team-members/Team member-04.png" />
-                <b>Test1</b>
-                <i>Ilustrator & game developer</i>
+                <b>KrisKros</b>
+                <i>Ilustrator & graphic designer</i>
             </li>
             <li>
                 <img src="./assets/team-members/Team member-05.png" />
-                <b>Test2</b>
-                <i>Ilustrator & game developer</i>
+                <b>Tomo</b>
+                <i>game developer & animator</i>
             </li>
         </ul>
     </section>

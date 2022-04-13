@@ -14,19 +14,28 @@
 	color: var(--background-secondary);
 	text-align: center;
 }
+
 #pig-army > span {
 	color: var(--text-color-primary);
 	text-align: justify;
+	font-size: 18px;
+	line-height: 34px;
 }
 
 #pig-army-gallery {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 1rem;
 	align-items: center;
 	justify-content: center;
 }
+
+#pig-army-gallery > img {
+	max-width: 25vw;
+}
+
+
+@media screen and (min-width: 1024px) { 
 
 #pig-army-gallery > img {
 	max-width: 250px;
@@ -47,4 +56,5 @@
 
 .bigger {
 	max-width: 300px !important;
+}
 }

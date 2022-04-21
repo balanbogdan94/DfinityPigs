@@ -17,7 +17,7 @@
 
 #pig-army > span {
 	color: var(--text-color-primary);
-	text-align: justify;
+	text-align: center;
 	font-size: 18px;
 	line-height: 34px;
 }

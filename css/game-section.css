@@ -27,8 +27,6 @@
 	justify-content: center;
 }
 .playstores-item {
-	min-width: 400px;
-	padding: 1rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -41,8 +39,8 @@
 	background-repeat: no-repeat;
 }
 .game-image {
-	height: 200px;
-	max-width: 100%;
+	height: 175px;
+	max-width: 90%;
 }
 
 .app-btn {
@@ -78,4 +76,17 @@
 .big-txt {
 	font-size: 17px;
 	text-transform: capitalize;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.playstores-item {
+		padding: 1rem;
+		min-width: 400px;
+	}
+	
+	.game-image {
+		height: 200px;
+		max-width: 100%;
+	}
 }

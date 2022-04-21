@@ -8,4 +8,7 @@ function toggle() {
   }
   trigger.addEventListener('click', toggle);
 
-  
+
+  function scrollUp() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
